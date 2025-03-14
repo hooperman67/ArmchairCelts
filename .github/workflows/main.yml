@@ -39,9 +39,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
+       - name: Setup PHP
+         uses: shivammathur/setup-php@v2
+         with:
         php-version: '7.2'
   
       - name: Checkout
