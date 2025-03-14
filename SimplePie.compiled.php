@@ -14994,6 +14994,15 @@ class SimplePie_Parse_Date
 	 */
 	public function __construct()
 	{
+		// Line 14997
+if (is_array($pieces)) {
+    implode($glue, $pieces);
+} else {
+    // Handle the error or convert $pieces to an array
+    // For example, you can log an error or initialize $pieces as an array
+    $pieces = (array)$pieces; // This converts the string to an array with one element
+    implode($glue, $pieces);
+}
 		$this->day_pcre = '(' . implode(array_keys($this->day), '|') . ')';
 		$this->month_pcre = '(' . implode(array_keys($this->month), '|') . ')';
 
