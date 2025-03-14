@@ -16,7 +16,7 @@ $news_rss = array(
 );
 
 // Create instances for each array
-$news_feed = new \SimplePie\SimplePie();
+$news_feed = new \SimplePie();
 
 // Set feed URLs for each instance
 $news_feed->set_feed_url($news_rss);
