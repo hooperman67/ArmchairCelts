@@ -1,15 +1,10 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json"); 
-    include_once('SimplePie.compiled.php');
-
-// We'll process this feed with all of the default options.
+include_once ('SimplePie.compiled.php');
+$url = 'http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml';
 $feed = new SimplePie();
- 
-$feed = 'https://www.dailyrecord.co.uk/all-about/celtic-fc/?service=rss'
- 
-// Run SimplePie.
+$feed->set_feed_url($url);
 $feed->init();
+
  
 // This makes sure that the content is sent to the browser as text/html and the UTF-8 character set (since we didn't change it).
 $feed->handle_content_type();
@@ -43,6 +38,6 @@ $feed->handle_content_type();
 </html>';
  ?>
 	<?php endforeach;
-file_put_contents('public/parsed.html', $html);
+file_put_contents('parsed.html', $html);
 ?>
  
