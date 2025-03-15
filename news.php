@@ -131,7 +131,7 @@ $rss1 .= '</article></div>';
 }
 
 $jsonOutput = json_encode(['items' => $newsitems], JSON_PRETTY_PRINT);
-file_put_contents('newsfeed.json', $jsonOutput);
+file_put_contents('public/newsfeed.json', $jsonOutput);
 $template = file_get_contents('newsbase.html');
 $html = str_replace('<!-- posts here -->', $rss1, $template);
-file_put_contents('news.html', $html);
+file_put_contents('public/news.html', $html);
