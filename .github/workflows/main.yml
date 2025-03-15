@@ -4,8 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'news.php'
-      - 'newsbase.html'
+      - 'parse.php'
   schedule:
     - cron: '0 */2 * * *'  # Runs every 2 hrs
   # Allows you to run this workflow manually from the Actions tab
