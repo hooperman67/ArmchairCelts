@@ -1,0 +1,23 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Run news.php script
+        run: php news.php
+
+      - name: Check if news.html and newsfeed.json exist
+        run: |
+          if [ ! -f news.html ]; then
+            echo "news.html not found!"
+            exit 1
+          fi
+          if [ ! -f newsfeed.json ]; then
+            echo "newsfeed.json not found!"
+            exit 1
+          fi
+
+      - name: Archive artifact
+        run: tar -cvf artifact.tar news.html newsfeed.json
