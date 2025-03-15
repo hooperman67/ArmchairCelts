@@ -6,7 +6,6 @@ on:
     paths:
       - 'news.php'
       - 'newsbase.html'
-      - 'news.html'
   schedule:
     - cron: '0 */2 * * *'  # Runs every 2 hrs
   workflow_dispatch:
