@@ -4,6 +4,7 @@
    --orange: #fc7e11;
     --darkgrey: #666666;
       --grey: #dddddd;
+    --green: darkgreen;
      --black: #000000;
      --title:#000000;
       --lightgrey: #d3d3d3;
@@ -30,6 +31,7 @@ body {
     --orange: #fc7e11;
     --darkgrey: #ddd;
     --grey: #4f5257;
+    --green: darkgreen;  
     --black: #ffffff;
     --title: #ffffff;
     --lightgrey: #44494e;
@@ -150,6 +152,13 @@ select {
     border-radius: 5px;
     vertical-align: baseline;
 }
+
+select option:checked {
+    background: var(--green);
+    color: #fff;
+}
+
+
 
 span.date {padding-left: 5px;}
 
