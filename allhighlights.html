@@ -1,0 +1,285 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ArmchairCelts-Celtic video highlights aggregator</title>
+    <meta name="description" content="ArmchairCelts-TV highlights from Celtic games, SPFL,TNT,Sky Sports and Viaplay in both Domestic and European competitions">
+    <meta name="generator" content="ArmchairCelts">
+        <link rel="canonical" href="https://armchaircelts.co.uk/allhighlights.html"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="theme-color" content="#33691e">
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/apple-icon-180.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- ios support -->
+    <meta name="apple-mobile-web-app-status-bar" content="#fff" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#33691e" />
+    <!-- End PWA -->
+    <!-- Opengraph -->
+    <meta property="og:image" content="images/screenshot.png">
+    <meta property="og:title" content="ArmchairCelts">
+    <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/foundation-prototype.min.css">
+<style>
+.top-bar, .top-bar ul, .top-bar a:link, .top-bar a:visited {
+    background-color: darkgreen;
+    color: white;
+}
+body {
+  background: #f9f9f9;
+  color: black;
+}
+
+.dark-mode {
+  background: #212121;
+  color: white;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-section img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+/* ensure card text flips to white in dark mode */
+.dark-mode .card {
+  color: white;
+}
+
+/* links */
+a:link {
+  color: green;
+}
+
+/* links */
+a:visited {
+  color: darkgreen;
+}
+
+.tabs {
+    margin: 0;
+    border: 1px solid #e6e6e6;
+    background: white;
+    list-style-type: none;
+}
+
+.dark-mode .tabs {
+    margin: 0;
+    border: 1px solid #e6e6e6;
+    background-color: transparent;
+    list-style-type: none;
+}
+.tabs-content {
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    color: black;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;        
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.dark-mode .tabs-content {
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    color: white;
+    background-color: transparent;    
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.tabs-title>a:focus, .tabs-title>a[aria-selected=true] {
+    background-color: white;
+    color: green;
+}
+
+.dark-mode .tabs-title>a:focus, .tabs-title>a[aria-selected=true] {
+    background-color: transparent;
+    color: green;
+}
+
+.tabs-title>a {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    font-size: .75rem;
+    line-height: 1;
+    color: green;
+}
+
+.tabs-title>a:hover {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    font-size: .75rem;
+    line-height: 1;
+    color: green;
+}
+/* links in dark mode */
+.dark-mode a:link {
+  color: lightgreen;
+}
+.dark-mode a:visited {
+  color: lightgreen;
+}
+
+.preview {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+/* Image left on desktop */
+.preview img {
+  width: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.preview-content {
+  flex: 1;
+}
+
+.preview-content strong {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.meta {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* --- Mobile layout --- */
+@media (max-width: 640px) {
+  .preview {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .preview img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .preview-content {
+    width: 100%;
+  }
+}
+ </style>
+
+
+</head>
+
+<body>
+<div class="grid-container">
+    <h1 class="text-center">ArmchairCelts | <small>Celtic FC News Reader</small></h1>
+   <div><p class="text-right">Change screen background <button id="theme-toggle" aria-label="Toggle dark mode">
+  <span id="theme-icon">🌙</span></button></p></div>      
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="blogs.html">Blogs</a></li>                
+      <li><a href="podcasts.html">Podcasts</a></li>
+      <li><a href="youtube.html">Videos</a></li>
+      <li><a href="tvhighlights.html">TV Highlights</a></li>
+      <li><a href="allhighlights.html">2025/26 campaign</a></li>     
+  
+
+    </ul>
+  </div>
+</div>
+<div class="grid-container">
+  <h2 class="text-center">Celtic FC Game Highlights</h2>
+  <p>Watch TV highlights from Celtic's 2025/26 Domestic and European competitions</p>
+<div class="grid-container fluid">
+<ul class="tabs" data-tabs id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Scottish Premiership Highlights</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">UEFA Europa League Highlights</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">Premier Sports Cup</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">Scottish Cup Highlights</a></li>    
+</ul>
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1">
+ <div class="preview"><img src="https://i.ytimg.com/vi/dqXjxjasI-s/maxresdefault.jpg" alt="Kilmarnock 2-3 Celtic | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Kilmarnock 2-3 Celtic | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-02-17 12:15:24</div><p>A stunning second-half comeback saw Celtic secure all three points against Kilmarnock at Rugby Park. The hosts were in control with a two-goal lead courtesy ...</p><a class="url-link" href="https://www.youtube.com/watch?v=dqXjxjasI-s" target="_blank">https://www.youtube.com/watch?v=dqXjxjasI-s</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/8YWrhsgUNsc/maxresdefault.jpg" alt="Celtic 2-1 Livingston | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 2-1 Livingston | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-02-12 11:57:33</div><p>Celtic left it late to secure a dramatic victory over bottom of the table Livingston at Celtic Park. A first Celtic goal for Marcelo Saracchi put the hosts a...</p><a class="url-link" href="https://www.youtube.com/watch?v=8YWrhsgUNsc" target="_blank">https://www.youtube.com/watch?v=8YWrhsgUNsc</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/9N_npKseGbc/maxresdefault.jpg" alt="Celtic 2-0 Falkirk | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 2-0 Falkirk | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-02-02 11:33:11</div><p>Tomas Čvančara's first Celtic goal helped overcome a fighting Falkirk performance as Martin O'Neill's side climbed to second in the Premiership on goals scor...</p><a class="url-link" href="https://www.youtube.com/watch?v=9N_npKseGbc" target="_blank">https://www.youtube.com/watch?v=9N_npKseGbc</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/LyBRECzXGfw/maxresdefault.jpg" alt="Heart of Midlothian 2-2 Celtic | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Heart of Midlothian 2-2 Celtic | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-26 11:11:13</div><p>League leaders Hearts came back twice to earn a point at Tynecastle. Benjamin Nygren's superb free kick opened the scoring before Stuart Findlay headed home ...</p><a class="url-link" href="https://www.youtube.com/watch?v=LyBRECzXGfw" target="_blank">https://www.youtube.com/watch?v=LyBRECzXGfw</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/SXCUT01ibFQ/maxresdefault.jpg" alt="Falkirk 0-1 Celtic | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Falkirk 0-1 Celtic | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-16 12:28:04</div><p>The reigning champions had to dig deep to claim all three points at the Falkirk Stadium thanks to Benjamin Nygren's 10th William Hill Premiership goal of the...</p><a class="url-link" href="https://www.youtube.com/watch?v=SXCUT01ibFQ" target="_blank">https://www.youtube.com/watch?v=SXCUT01ibFQ</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/AG54V8Rcq5E/maxresdefault.jpg" alt="Celtic 4-0 Dundee United | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 4-0 Dundee United | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-12 13:27:54</div><p>Martin O'Neill's return to the dugout inspired Celtic to a rousing victory over the visiting Dundee United. Goals from Yang, Engels, Nygren, and Maeda secure...</p><a class="url-link" href="https://www.youtube.com/watch?v=AG54V8Rcq5E" target="_blank">https://www.youtube.com/watch?v=AG54V8Rcq5E</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/haWeIGn3xPk/maxresdefault.jpg" alt="Gers come from behind in CRUCIAL derby win! 🔵 | Celtic 1-3 Rangers | Scottish Premiership Highlights"><div class="preview-content"><strong>Gers come from behind in CRUCIAL derby win! 🔵 | Celtic 1-3 Rangers | Scottish Premiership Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-12 13:27:07</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsHighlights from the Scottish Premiership as Ran...</p><a class="url-link" href="https://www.youtube.com/watch?v=haWeIGn3xPk" target="_blank">https://www.youtube.com/watch?v=haWeIGn3xPk</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/lXyxzHQBAQc/hqdefault.jpg" alt="Nancy's Hoops OUTCLASSED at Fir Park | Motherwell 2-0 Celtic | Scottish Premiership Highlights"><div class="preview-content"><strong>Nancy's Hoops OUTCLASSED at Fir Park | Motherwell 2-0 Celtic | Scottish Premiership Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-12 13:25:49</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsMatch highlights as Celtic were taught a lesson...</p><a class="url-link" href="https://www.youtube.com/watch?v=lXyxzHQBAQc" target="_blank">https://www.youtube.com/watch?v=lXyxzHQBAQc</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/fDb1UylzlkY/maxresdefault.jpg" alt="Scottish Premiership Highlights | Livingston 2-4 Celtic (27/12/25)"><div class="preview-content"><strong>Scottish Premiership Highlights | Livingston 2-4 Celtic (27/12/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-12 13:23:33</div><p>Relive the action from Saturday’s clash against Livingston as Celtic aimed to make it back-to-back wins under Wilfried Nancy.📺 Watch now!#LIVCEL | #CelticFC...</p><a class="url-link" href="https://www.youtube.com/watch?v=fDb1UylzlkY" target="_blank">https://www.youtube.com/watch?v=fDb1UylzlkY</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/DBtIHXxEu9s/maxresdefault.jpg" alt="Celtic 3-1 Aberdeen | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 3-1 Aberdeen | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-22 11:53:01</div><p>A dominant display earned Wilfried Nancy his first win as Celtic manager. Benjamin Nygren opened the scoring for the hosts before Dylan Lobban was sent off f...</p><a class="url-link" href="https://www.youtube.com/watch?v=DBtIHXxEu9s" target="_blank">https://www.youtube.com/watch?v=DBtIHXxEu9s</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/pxtVKGOplDs/maxresdefault.jpg" alt="Dundee United 2-1 Celtic | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Dundee United 2-1 Celtic | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-18 11:34:27</div><p>Dundee United end their seven game winless run with a stunning second-half comeback to hand Wilfred Nancy's side their fourth consecutive defeat. Celtic look...</p><a class="url-link" href="https://www.youtube.com/watch?v=pxtVKGOplDs" target="_blank">https://www.youtube.com/watch?v=pxtVKGOplDs</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/15QxKoKuDnE/maxresdefault.jpg" alt="Celtic 1-2 Heart of Midlothian | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 1-2 Heart of Midlothian | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-08 12:36:30</div><p>Hearts moved three points clear at the top of the William Hill Premiership as new Celtic boss Wilfried Nancy tasted defeat in his first match in charge. Goal...</p><a class="url-link" href="https://www.youtube.com/watch?v=15QxKoKuDnE" target="_blank">https://www.youtube.com/watch?v=15QxKoKuDnE</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/dsdMVYTjOk0/maxresdefault.jpg" alt="Celtic 1-0 Dundee | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 1-0 Dundee | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-04 16:36:07</div><p>O’Neill signed off his interim spell in charge at Celtic Park with a narrow win over Dundee. Daizen Maeda’s early header gave the champions the lead and, des...</p><a class="url-link" href="https://www.youtube.com/watch?v=dsdMVYTjOk0" target="_blank">https://www.youtube.com/watch?v=dsdMVYTjOk0</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/zXEYJMbi1tE/maxresdefault.jpg" alt="33-second brace fires Celtic BACK into title race! 😰 | Hibernian 1-2 Celtic | SPFL Highlights"><div class="preview-content"><strong>33-second brace fires Celtic BACK into title race! 😰 | Hibernian 1-2 Celtic | SPFL Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-01 12:05:37</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsHighlights from the Scottish Premiership as int...</p><a class="url-link" href="https://www.youtube.com/watch?v=zXEYJMbi1tE" target="_blank">https://www.youtube.com/watch?v=zXEYJMbi1tE</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/RbZCr1C2Qhk/maxresdefault.jpg" alt="McGregor scores 94th minute WORLDIE winner | St Mirren 0-1 Celtic | Scottish Premiership Highlights"><div class="preview-content"><strong>McGregor scores 94th minute WORLDIE winner | St Mirren 0-1 Celtic | Scottish Premiership Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-11-23 14:45:55</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsHighlights from the Scottish Premiership as Cal...</p><a class="url-link" href="https://www.youtube.com/watch?v=RbZCr1C2Qhk" target="_blank">https://www.youtube.com/watch?v=RbZCr1C2Qhk</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/dKV6Pxp8sRQ/maxresdefault.jpg" alt="Celtic 4-0 Kilmarnock | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 4-0 Kilmarnock | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-11-10 14:19:40</div><p>Celtic demolished Kilmarnock at home and reduced the gap at the top of the William Hill Premiership to seven points. Johnny Kenny continued his goalscoring f...</p><a class="url-link" href="https://www.youtube.com/watch?v=dKV6Pxp8sRQ" target="_blank">https://www.youtube.com/watch?v=dKV6Pxp8sRQ</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/lUcwTMuvCPM/maxresdefault.jpg" alt="Celtic 4-0 Falkirk | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 4-0 Falkirk | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-30 16:31:44</div><p>Martin O'Neill's return as interim manager saw Celtic secure a commanding victory in his first game in 20 years, cutting the gap at the Scottish Premiership ...</p><a class="url-link" href="https://www.youtube.com/watch?v=lUcwTMuvCPM" target="_blank">https://www.youtube.com/watch?v=lUcwTMuvCPM</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/t9uczAAcsFc/maxresdefault.jpg" alt="Hearts down Celtic to extend lead at the top! 🔥| Hearts 3-1 Celtic | Scottish Premiership Highlights"><div class="preview-content"><strong>Hearts down Celtic to extend lead at the top! 🔥| Hearts 3-1 Celtic | Scottish Premiership Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-26 20:10:36</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsHighlights from the Scottish Premiership as Hea...</p><a class="url-link" href="https://www.youtube.com/watch?v=t9uczAAcsFc" target="_blank">https://www.youtube.com/watch?v=t9uczAAcsFc</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/F5V0DfRrSzY/maxresdefault.jpg" alt="Dundee STUN the champions! 🤯 | Dundee 2-0 Celtic | SPFL Highlights"><div class="preview-content"><strong>Dundee STUN the champions! 🤯 | Dundee 2-0 Celtic | SPFL Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-19 20:27:28</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsCeltic suffered their first defeat at Dundee si...</p><a class="url-link" href="https://www.youtube.com/watch?v=F5V0DfRrSzY" target="_blank">https://www.youtube.com/watch?v=F5V0DfRrSzY</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/ImGxTPQ9lQM/maxresdefault.jpg" alt="Celtic 3-2 Motherwell | HIGHLIGHTS | William Hill Premiership"><div class="preview-content"><strong>Celtic 3-2 Motherwell | HIGHLIGHTS | William Hill Premiership</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 20:05:58</div><p>Late drama at Celtic Park saw Daizen Maeda win all three points for Brendan Rodgers' side. Kelechi Iheanacho opened the scoring from the penalty spot but a d...</p><a class="url-link" href="https://www.youtube.com/watch?v=ImGxTPQ9lQM" target="_blank">https://www.youtube.com/watch?v=ImGxTPQ9lQM</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/Kh0X91nL3D8/maxresdefault.jpg" alt="Scottish Premiership Highlights: Celtic 0-0 Hibernian (27/09/25)"><div class="preview-content"><strong>Scottish Premiership Highlights: Celtic 0-0 Hibernian (27/09/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 20:05:06</div><p>Watch our highlights of Saturday's home tie as the Celts host Hibernian in the Premiership.#CELHIB | #CelticFC | #COYBIG 🍀🍀Subscribe today to the official ...</p><a class="url-link" href="https://www.youtube.com/watch?v=Kh0X91nL3D8" target="_blank">https://www.youtube.com/watch?v=Kh0X91nL3D8</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/WVX2xHGEXsg/maxresdefault.jpg" alt="Scottish Premiership Highlights: Kilmarnock 1-2 Celtic (14/09/25)"><div class="preview-content"><strong>Scottish Premiership Highlights: Kilmarnock 1-2 Celtic (14/09/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 20:03:24</div><p>The best of the action from Ayrshire as Celtic continue their unbeaten start to the Premiership campaign.📺 Watch in full now on #CelticTV #KILCEL | #CelticF...</p><a class="url-link" href="https://www.youtube.com/watch?v=WVX2xHGEXsg" target="_blank">https://www.youtube.com/watch?v=WVX2xHGEXsg</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/HUTBZ_Wix6k/maxresdefault.jpg" alt="Old Firm ends 0-0 for first time since 2017! | Rangers 0-0 Celtic | Scottish Premiership Highlights"><div class="preview-content"><strong>Old Firm ends 0-0 for first time since 2017! | Rangers 0-0 Celtic | Scottish Premiership Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 20:01:45</div><p>► Subscribe to Sky Sports Football: http://bit.ly/SSFootballSub► Watch Sky Sports: https://bit.ly/BuySkySportsHighlights from the Scottish Premiership as Ran...</p><a class="url-link" href="https://www.youtube.com/watch?v=HUTBZ_Wix6k" target="_blank">https://www.youtube.com/watch?v=HUTBZ_Wix6k</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/rRl4tc0DNqU/maxresdefault.jpg" alt="Scottish Premiership Highlights | Celtic 3-0 Livingston (23/08/25)"><div class="preview-content"><strong>Scottish Premiership Highlights | Celtic 3-0 Livingston (23/08/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 20:01:01</div><p>The best of the action from Paradise as Celtic continue their good start to the league campaign. 📺 Watch in full now on #CelticTV #CELLIV | #CelticFC🍀🍀Sub...</p><a class="url-link" href="https://www.youtube.com/watch?v=rRl4tc0DNqU" target="_blank">https://www.youtube.com/watch?v=rRl4tc0DNqU</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/94A2IDc8nyA/maxresdefault.jpg" alt="Scottish Premiership Highlights | Aberdeen 0-2 Celtic (10/08/25)"><div class="preview-content"><strong>Scottish Premiership Highlights | Aberdeen 0-2 Celtic (10/08/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 19:59:36</div><p>The best of the action from Pittodrie as Celtic make it two wins from two in their title defence. 📺 Watch in full now on #CelticTV #ABECEL | #CelticFC🍀🍀Su...</p><a class="url-link" href="https://www.youtube.com/watch?v=94A2IDc8nyA" target="_blank">https://www.youtube.com/watch?v=94A2IDc8nyA</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/1e_bslXNRYQ/maxresdefault.jpg" alt="Scottish Premiership Highlights: Celtic 1-0 St Mirren (03/08/25)"><div class="preview-content"><strong>Scottish Premiership Highlights: Celtic 1-0 St Mirren (03/08/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 19:58:47</div><p>Watch the best of the action as the Celts face St Mirren in Paradise to kick off the Scottish Premiership 25/26. 📺 Watch now 👇#CELSTM | #CelticFC🍀 🍀Subsc...</p><a class="url-link" href="https://www.youtube.com/watch?v=1e_bslXNRYQ" target="_blank">https://www.youtube.com/watch?v=1e_bslXNRYQ</a></div></div> 
+  </div>
+
+  <div class="tabs-panel" id="panel2">
+ <div class="preview"><img src="https://i.ytimg.com/vi/yo23LDFr4sw/maxresdefault.jpg" alt="O'Neill's 1000th Match Ends In Disaster 🫨 | Celtic 1-4 Stuttgart | UEFA Europa League Highlights"><div class="preview-content"><strong>O'Neill's 1000th Match Ends In Disaster 🫨 | Celtic 1-4 Stuttgart | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-02-21 11:14:40</div><p>Celtic suffered a damaging and likely decisive Europa League knockout round play-off first-leg defeat to Stuttgart as Martin O'Neill's 1,000th match as a man...</p><a class="url-link" href="https://www.youtube.com/watch?v=yo23LDFr4sw" target="_blank">https://www.youtube.com/watch?v=yo23LDFr4sw</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/Nn3sXwteciI/maxresdefault.jpg" alt="Celtic Run Riot 😮‍💨 | Celtic 4-2 FC Utrecht | UEFA Europa League Highlights"><div class="preview-content"><strong>Celtic Run Riot 😮‍💨 | Celtic 4-2 FC Utrecht | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-30 11:05:47</div><p>Celtic stormed into a three-goal lead inside 19 minutes before seeing off Utrecht 4-2 at Parkhead to keep their Europa League campaign alive and book a knock...</p><a class="url-link" href="https://www.youtube.com/watch?v=Nn3sXwteciI" target="_blank">https://www.youtube.com/watch?v=Nn3sXwteciI</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/d6bWhowCME8/maxresdefault.jpg" alt="10-Man Celtic Drop Two Goal Lead 😤 | Bologna 2-2 Celtic | UEFA Europa League Highlights"><div class="preview-content"><strong>10-Man Celtic Drop Two Goal Lead 😤 | Bologna 2-2 Celtic | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-23 11:43:02</div><p>Ten-man Celtic surrendered a two-goal advantage as Bologna fought back to earn a 2-2 draw in Italy after Reo Hatate was sent off.TNT Sports marks a new era i...</p><a class="url-link" href="https://www.youtube.com/watch?v=d6bWhowCME8" target="_blank">https://www.youtube.com/watch?v=d6bWhowCME8</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/kBhi6LBlXhw/maxresdefault.jpg" alt="Ferguson’s Double Delight! 🤩 | Celtic 0-3 Roma | UEFA Europa League Highlights"><div class="preview-content"><strong>Ferguson’s Double Delight! 🤩 | Celtic 0-3 Roma | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-12 11:25:50</div><p>Celtic were beaten 3-0 by Roma in the UEFA Europa League, with an Evan Ferguson brace securing a third away win in the League Phase.TNT Sports marks a new er...</p><a class="url-link" href="https://www.youtube.com/watch?v=kBhi6LBlXhw" target="_blank">https://www.youtube.com/watch?v=kBhi6LBlXhw</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/C7AJOj788BQ/maxresdefault.jpg" alt="Celtic Comeback Stuns De Kuip 🤩 | Feyenoord 1-3 Celtic | UEFA Europa League Highlights"><div class="preview-content"><strong>Celtic Comeback Stuns De Kuip 🤩 | Feyenoord 1-3 Celtic | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-11-28 11:22:49</div><p>Resurgent Celtic came from behind to claim a thoroughly deserved landmark victory over Feyenoord in the Europa League at a stunned De Kuip.TNT Sports marks a...</p><a class="url-link" href="https://www.youtube.com/watch?v=C7AJOj788BQ" target="_blank">https://www.youtube.com/watch?v=C7AJOj788BQ</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/GbdZp_am78M/maxresdefault.jpg" alt="Gogorza’s Star Performance ⭐️ | Midtjylland 3-1 Celtic | UEFA Europa League Highlights"><div class="preview-content"><strong>Gogorza’s Star Performance ⭐️ | Midtjylland 3-1 Celtic | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-11-07 10:38:33</div><p>FC Midtjylland continued their perfect start to this season’s UEFA Europa League with a commanding 3-1 win over a below-par Celtic at the MCH Arena.TNT Sport...</p><a class="url-link" href="https://www.youtube.com/watch?v=GbdZp_am78M" target="_blank">https://www.youtube.com/watch?v=GbdZp_am78M</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/AgYrfBtGHo8/maxresdefault.jpg" alt="Nygren Seals Comeback Win! 🟢 | Celtic 2-1 Sturm Graz | UEFA Europa League Highlights"><div class="preview-content"><strong>Nygren Seals Comeback Win! 🟢 | Celtic 2-1 Sturm Graz | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-24 09:50:49</div><p>Celtic staged an admirable second-half comeback to earn their first Europa League win of the campaign to see off 10-man Sturm Graz.TNT Sports marks a new era...</p><a class="url-link" href="https://www.youtube.com/watch?v=AgYrfBtGHo8" target="_blank">https://www.youtube.com/watch?v=AgYrfBtGHo8</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/8EnwasKpIjE/maxresdefault.jpg" alt="Ricardo Horta Thunder Strike! ⚡️ | Celtic 0-2 Braga | UEFA Europa League Highlights"><div class="preview-content"><strong>Ricardo Horta Thunder Strike! ⚡️ | Celtic 0-2 Braga | UEFA Europa League Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 19:50:37</div><p>Celtic have taken just one point from their opening two UEFA Europa League matches following a 2-0 home defeat to SC Braga including a wonder strike from Ric...</p><a class="url-link" href="https://www.youtube.com/watch?v=8EnwasKpIjE" target="_blank">https://www.youtube.com/watch?v=8EnwasKpIjE</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/BRf_zQE1sQs/maxresdefault.jpg" alt="UEFA Europa League Highlights: Crvena Zvezda 1-1 Celtic (24/09/25)"><div class="preview-content"><strong>UEFA Europa League Highlights: Crvena Zvezda 1-1 Celtic (24/09/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-06 19:48:27</div><p>Watch the best of the action as the Celts travelled to Belgrade to face Crvena Zvezda in the #UEL. #CrvenaZvezdaCeltic | #CelticFC | #COYBIG 🍀Subscribe toda...</p><a class="url-link" href="https://www.youtube.com/watch?v=BRf_zQE1sQs" target="_blank">https://www.youtube.com/watch?v=BRf_zQE1sQs</a></div></div> 
+  </div>
+  
+   <div class="tabs-panel" id="panel3">
+<div class="preview"><img src="https://i.ytimg.com/vi/xXx9U5339jg/maxresdefault.jpg" alt="St. Mirren 3-1 Celtic | EXTENDED HIGHLIGHTS | Premier Sports Cup"><div class="preview-content"><strong>St. Mirren 3-1 Celtic | EXTENDED HIGHLIGHTS | Premier Sports Cup</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-12-15 14:41:03</div><p>Watch extended highlights as St. Mirren overcame the odds to beat Celtic in the Premier Sports Cup Final at Barclays Hampden! Goals from Marcus Fraser &amp; Jona...</p><a class="url-link" href="https://www.youtube.com/watch?v=xXx9U5339jg" target="_blank">https://www.youtube.com/watch?v=xXx9U5339jg</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/n5s7yFP4Tuc/maxresdefault.jpg" alt="Celtic vs Rangers 3-1 Extended Highlights &amp; Goals 2025"><div class="preview-content"><strong>Celtic vs Rangers 3-1 Extended Highlights &amp; Goals 2025</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-11-02 18:16:39</div><p>Celtic vs Rangers 3-1 Extended Highlights &amp; Goals 2025#celtic #rangers #scotland</p><a class="url-link" href="https://www.youtube.com/watch?v=n5s7yFP4Tuc" target="_blank">https://www.youtube.com/watch?v=n5s7yFP4Tuc</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/YElfTLCNCk0/maxresdefault.jpg" alt="Premier Sports Cup Highlights: Partick Thistle 0-4 Celtic (21/09/25)"><div class="preview-content"><strong>Premier Sports Cup Highlights: Partick Thistle 0-4 Celtic (21/09/25)</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-10-07 17:02:14</div><p>Catch the best of the action as Celtic faced off against Partick Thistle for a place in the Premier Sports Cup Semi-Final at Hampden.📺 Watch Now!👇#PARCEL |...</p><a class="url-link" href="https://www.youtube.com/watch?v=YElfTLCNCk0" target="_blank">https://www.youtube.com/watch?v=YElfTLCNCk0</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/YC9kMq26hRA/maxresdefault.jpg" alt="HIGHLIGHTS | Celtic 4-1 Falkirk | Premier Sports Cup holders comfortably progress to Quarter-Finals"><div class="preview-content"><strong>HIGHLIGHTS | Celtic 4-1 Falkirk | Premier Sports Cup holders comfortably progress to Quarter-Finals</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2025-08-15 17:02:57</div><p>Highlights from Celtic 4-1 Falkirk, Premier Sports Cup, Second Round, 15/08/2025To watch all content live on Premier Sports, visit https://www.premiersports....</p><a class="url-link" href="https://www.youtube.com/watch?v=YC9kMq26hRA" target="_blank">https://www.youtube.com/watch?v=YC9kMq26hRA</a></div></div>   
+   </div>
+   <div class="tabs-panel" id="panel4">
+<div class="preview"><img src="https://i.ytimg.com/vi/vrnF2rl7iL4/maxresdefault.jpg" alt="Adamu &amp; Tounekti Complete Extra-Time Comeback! | Celtic 2-1 (AET) Dundee | Scottish Gas Scottish Cup"><div class="preview-content"><strong>Adamu &amp; Tounekti Complete Extra-Time Comeback! | Celtic 2-1 (AET) Dundee | Scottish Gas Scottish Cup</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-02-08 12:19:31</div><p>An equaliser from Celtic's Junior Adamu cancelled out Ethan Hamilton's sensational goal for Dundee to take the match into Extra-Time, where Sebastian Tounekt...</p><a class="url-link" href="https://www.youtube.com/watch?v=vrnF2rl7iL4" target="_blank">https://www.youtube.com/watch?v=vrnF2rl7iL4</a></div></div><div class="preview"><img src="https://i.ytimg.com/vi/O7UEvvXODTM/maxresdefault.jpg" alt="Kenny and Tounekti on Target! | Auchinleck Talbot v Celtic | Scottish Gas Scottish Cup Highlights"><div class="preview-content"><strong>Kenny and Tounekti on Target! | Auchinleck Talbot v Celtic | Scottish Gas Scottish Cup Highlights</strong><div class="meta"><a class="source-link" href="https://youtube.com" target="_blank">youtube.com</a> – 2026-01-23 11:56:58</div><p>Highlights from Rugby Park, where Junior Side Auchinleck Talbot took on 42-Time winners, Celtic. #ScottishCup</p><a class="url-link" href="https://www.youtube.com/watch?v=O7UEvvXODTM" target="_blank">https://www.youtube.com/watch?v=O7UEvvXODTM</a></div></div>   
+   </div>     
+ </div> 
+  
+</div>
+</div>
+
+</div> 
+</div> 
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+ <script>
+const themeToggleBtn = document.getElementById('theme-toggle');
+const themeIcon = document.getElementById('theme-icon');
+
+function setTheme(theme) {
+  document.body.classList.toggle("dark-mode", theme === "dark");
+  localStorage.setItem("theme", theme);
+  themeIcon.textContent = theme === "dark" ? "🌞" : "🌙"; // swap icons
+}
+
+function initTheme() {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    setTheme(savedTheme);
+  } else {
+    // Use system preference if no saved theme
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(systemPrefersDark ? "dark" : "light");
+  }
+}
+
+// Toggle when button clicked
+themeToggleBtn.addEventListener('click', () => {
+  const currentTheme = document.body.classList.contains("dark-mode") ? "dark" : "light";
+  setTheme(currentTheme === "dark" ? "light" : "dark");
+});
+
+initTheme();
+</script>   
+</body>
+</html>       
