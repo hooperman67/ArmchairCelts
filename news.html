@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Celtic FC latest news and articles</title>
+    <meta name="description" content="ArmchairCelts-The news hub for the latest hourly updates for Celtic FC news items, match reports, transfer rumours, stories and articles.">
+    <meta name="generator" content="ArmchairCelts">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://armchaircelts.co.uk/news.html" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="theme-color" content="#33691e">
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/apple-icon-180.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- ios support -->
+    <meta name="apple-mobile-web-app-status-bar" content=#33691e">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#fff" />
+    <meta property="og:image" content="images/screenshot.png">
+    <meta property="og:title" content="ArmchairCelts">
+    <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/foundation-prototype.min.css">
+<style>
+.top-bar, .top-bar ul, .top-bar a:link, .top-bar a:visited {
+    background-color: darkgreen;
+    color: white;
+}
+body {
+  background: #f9f9f9;
+  color: black;
+}
+
+.dark-mode {
+  background: #212121;
+  color: white;
+}
+
+.card {
+  background-color: transparent;
+}
+
+/* ensure card text flips to white in dark mode */
+.dark-mode .card {
+  color: white;
+}
+
+/* links */
+a:link {
+  color: green;
+}
+
+/* links */
+a:visited {
+  color: darkgreen;
+}
+
+/* links in dark mode */
+.dark-mode a:link {
+  color: lightgreen;
+}
+.dark-mode a:visited {
+  color: lightgreen;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <h1 class="text-center">ArmchairCelts | <small>Celtic FC News Reader</small></h1>
+   <div><p class="text-right">Change screen background <button id="theme-toggle" aria-label="Toggle dark mode">
+  <span id="theme-icon">🌙</span></button></p></div>      
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="blogs.html">Blogs</a></li>                
+      <li><a href="podcasts.html">Podcasts</a></li>
+      <li><a href="youtube.html">Videos</a></li>
+      <li><a href="tvhighlights.html">TV Highlights</a></li>
+      <li><a href="allhighlights.html">2025/26 campaign</a></li>  
+
+    </ul>
+  </div>
+</div>
+<div class="grid-container">
+
+  <h2 class="text-center">Latest Celtic News</h2>
+<div class="grid-container fluid">
+  <div class="grid-x grid-margin-x" id="news">
+
+</div> 
+</div>
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="app.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+ <script>
+const themeToggleBtn = document.getElementById('theme-toggle');
+const themeIcon = document.getElementById('theme-icon');
+
+function setTheme(theme) {
+  document.body.classList.toggle("dark-mode", theme === "dark");
+  localStorage.setItem("theme", theme);
+  themeIcon.textContent = theme === "dark" ? "🌞" : "🌙"; // swap icons
+}
+
+function initTheme() {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    setTheme(savedTheme);
+  } else {
+    // Use system preference if no saved theme
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    setTheme(systemPrefersDark ? "dark" : "light");
+  }
+}
+
+// Toggle when button clicked
+themeToggleBtn.addEventListener('click', () => {
+  const currentTheme = document.body.classList.contains("dark-mode") ? "dark" : "light";
+  setTheme(currentTheme === "dark" ? "light" : "dark");
+});
+
+initTheme();
+</script>   
+</body>
+</html>
