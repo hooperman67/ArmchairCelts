@@ -224,6 +224,5 @@ foreach ($allPosts as $post) {
 
 // Save JSON feed
 $jsonOutput = json_encode(['items' => $allPosts], JSON_PRETTY_PRINT);
-file_put_contents('/data/news.json', $jsonOutput);
-
+file_put_contents('data/news.json', $jsonOutput);
 
