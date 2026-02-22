@@ -1,71 +1,34 @@
-name: Fetch new feeds and push content to Github Pages
+name: Update News JSON
+
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
     paths:
-      - 'feeds.php'
-      - 'base.html'
+      - 'news.php'
   schedule:
-    - cron: '0 */24 * * *'  # Runs every 2 hours
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: '20 7-23/2 * * *'
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN
 permissions:
-  id-token: write
   contents: write
-  actions: write
-  checks: write
-  deployments: write
-  discussions: write
-  issues: write
-  pages: write
-  packages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
-
-# Allow only one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  update-news:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4  # Updated to v4
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4  # Updated to v4
-      
-      - name: Run feeds.php
-        run: php feeds.php
-      
-      - name: Commit files
+        uses: actions/checkout@v4
+
+      - name: Run news parser
+        run: php news.php
+
+      - name: Commit if changed
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add --all
-          git commit -m "Updating the repository" || echo "No changes to commit"
-      
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add news.json
+          git commit -m "Auto-update news.json" || echo "No changes"
+
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # Updated to v3
-        with:
-          path: './public'
-      
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4  # Updated to v4
+        run: git push
