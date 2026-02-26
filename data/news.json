@@ -1,6 +1,87 @@
 {
     "items": [
         {
+            "title": "Out of Europe - now Celtic face critical fortnight",
+            "link": "https:\/\/www.bbc.com\/sport\/football\/articles\/c80jg0v5d95o?at_medium=RSS&at_campaign=rss",
+            "description": "After exiting the Europa League, Celtic face a season-defining fortnight in the fight for the league and Scottish Cup.",
+            "pubDate": "Thu, 26 Feb 2026 21:40:08 GMT",
+            "image": "https:\/\/ichef.bbci.co.uk\/ace\/standard\/240\/cpsprodpb\/cb81\/live\/50778a50-1357-11f1-a24b-e9ec85119d46.jpg",
+            "mediaText": "",
+            "source": "BBC Sport"
+        },
+        {
+            "title": "Luke McCowan in defiant Celtic title roar as he claims 'no-one in Scotland touches us'",
+            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/luke-mccowan-defiant-celtic-title-36788533",
+            "description": "The midfielder fired Celtic to a morale-boosting win in Stuttgart and hopes to have forced his way into the plans for Sunday",
+            "pubDate": "Thu, 26 Feb 2026 21:18:40 +0000",
+            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36788535.ece\/ALTERNATES\/s615\/0_VfB-Stuttgart-v-Celtic-FC-UEFA-Europa-League-202526-Knockout-Play-off-Second-Leg.jpg",
+            "mediaText": "",
+            "source": "Daily Record - Celtic FC"
+        },
+        {
+            "title": "O'Neill disagrees with 'real Celtic' poser after European exit",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25892107.oneill-disagrees-real-celtic-poser-european-exit\/?ref=rss",
+            "description": "Martin O'Neill had a different view when asked about the 'real Celtic' following his side's win over Stuttgart.",
+            "pubDate": "Thu, 26 Feb 2026 21:01:04 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592394\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
+            "title": "Luke McCowan says that 'no team in the league' can touch Celtic at their best",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25892093.mccowan-adamant-no-team-scotland-touches-celtic\/?ref=rss",
+            "description": "Luke McCowan believes that no one in Scotland can live with Celtic when they are on their game, as the midfielder talked up his side\u2019s chances of a crucial win at Ibrox this Sunday after his goal helped his side to an impressive victory in Stuttgart.",
+            "pubDate": "Thu, 26 Feb 2026 20:44:44 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592403\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
+            "title": "Martin O'Neill takes issue with 'real Celtic' claim as he bites back in passionate TV address",
+            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/martin-oneill-takes-issue-real-36788268",
+            "description": "The Premiership champions are locked in a potential four-way fight for the title and bared their teeth in Stuttgart",
+            "pubDate": "Thu, 26 Feb 2026 20:33:10 +0000",
+            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/football-news\/article36788319.ece\/ALTERNATES\/s615\/0_Screen-Shot-2026-02-26-at-202537.png",
+            "mediaText": "",
+            "source": "Daily Record - Celtic FC"
+        },
+        {
+            "title": "Standout Celtic performer makes Old Firm declaration ahead of Ibrox clash",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25892077.celtic-star-makes-old-firm-admission-stuttgart-heroics\/?ref=rss",
+            "description": "Celtic goalkeeper, Viljami Sinisalo, has expressed his eagerness to feature in the upcoming Old Firm derby.",
+            "pubDate": "Thu, 26 Feb 2026 20:21:00 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592341\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
+            "title": "Neil Lennon: Why Celtic can't replicate Bodo\/Glimt",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25892044.neil-lennon-celtic-cant-replicate-bodo-glimt\/?ref=rss",
+            "description": "Former Celtic boss Neil Lennon has highlighted challenges in matching Bodo\/Glimt's success.",
+            "pubDate": "Thu, 26 Feb 2026 20:08:00 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592340\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
+            "title": "Stuttgart 0 Celtic 1: Celts restore pride and confidence ahead of visit to Ibrox",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25891902.stuttgart-0-celtic-1-instant-reaction-burning-issues\/?ref=rss",
+            "description": "Here are the talking points from the MHP Arena as Celtic exited the Europa League but restored some pride with a battling win over German side Stuttgart...",
+            "pubDate": "Thu, 26 Feb 2026 19:56:00 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592295\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
+            "title": "How every Celtic player performed vs Stuttgart in gutsy Europa League showing",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25891958.every-celtic-player-performed-versus-stuttgart\/?ref=rss",
+            "description": "Celtic faced Stuttgart at the MHP Arena in their Europa League second leg in Germany.",
+            "pubDate": "Thu, 26 Feb 2026 19:37:00 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592154\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
+        },
+        {
             "title": "Willie Haughey reveals audacious Celtic plan to buy \u00a310m shares and gift them to fans with legend fronting it",
             "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-transfer-news\/willie-haughey-reveals-audacious-celtic-36788003",
             "description": "Haughey's astonishing announcement comes amid the backdrop of a fractured club which has been torn apart amid in-fighting",
@@ -8,6 +89,15 @@
             "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article35920075.ece\/ALTERNATES\/s615\/0_Screenshot-2025-09-17-at-161906.png",
             "mediaText": "",
             "source": "Daily Record - Celtic FC"
+        },
+        {
+            "title": "Willie Haughey to invest up to \u00a310m in Celtic shares if fans back new startup",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25892025.willi-haughey-invest-10m-celtic-fans-back-new-startup\/?ref=rss",
+            "description": "Willie Haughey has pledged to invest over \u00a310million in Celtic shares - if backed by the club's supporters.",
+            "pubDate": "Thu, 26 Feb 2026 19:01:37 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20592268\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
         },
         {
             "title": "Lee Miller warns Celtic they should be worried about finishing fourth this season",
@@ -91,101 +181,11 @@
             "source": "Glasgow Times | Celtic"
         },
         {
-            "title": "Stuttgart 0 Celtic 1 LIVE reaction as Hoops create history but exit in Europe",
+            "title": "Stuttgart 0 Celtic 1 as it happened after Hoops create history but exit Europe",
             "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/stuttgart-vs-celtic-live-score-36786492",
             "description": "Celtic found a win in Germany at last but couldn't spark a miracle as Stuttgart advance 4-2 on aggregate",
             "pubDate": "Thu, 26 Feb 2026 15:54:16 +0000",
             "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/article36786401.ece\/ALTERNATES\/s615\/0_stutt-1.png",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Jens Berthel Askou quizzed on Celtic next manager link as Motherwell boss makes Hoops admission",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/jens-berthel-askou-quizzed-celtic-36786622",
-            "description": "The Dane is the hot favourite with bookies to become the next manager at Parkhead and has been quizzed on the link",
-            "pubDate": "Thu, 26 Feb 2026 15:40:53 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36786616.ece\/ALTERNATES\/s615\/0_JS397908694.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Celtic fans sizzle in sunny Stuttgart as Martin O'Neill and co aim to turn up the heat",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/gallery\/celtic-fans-sizzle-sunny-stuttgart-36786180",
-            "description": "The Premiership champions are in a 4-1 hole after the first leg but their followers are in fine fettle",
-            "pubDate": "Thu, 26 Feb 2026 15:11:23 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/article36785893.ece\/ALTERNATES\/s615\/0_JS397903989.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Celtic join Euro mega rich in UEFA profit bonanza as club cash reserve sees records smashed in \u00a347m boom",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/celtic-join-euro-mega-rich-36783799",
-            "description": "The European Club Finance and Investment Landscape report names the Hoops as one of the most profitable clubs on the continent.",
-            "pubDate": "Thu, 26 Feb 2026 11:26:48 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article16165531.ece\/ALTERNATES\/s615\/1_15225505.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Celtic goalkeeper Schmeichel backed but given blunt Denmark warning",
-            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25889165.celtics-schmeichel-backed-given-blunt-denmark-warning\/?ref=rss",
-            "description": "Celtic goalkeeper Kasper Schmeichel backed but given blunt Denmark warning",
-            "pubDate": "Thu, 26 Feb 2026 10:08:15 +0000",
-            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20588398\/",
-            "mediaText": "",
-            "source": "Glasgow Times | Celtic"
-        },
-        {
-            "title": "Kasper Schmeichel's Celtic struggles spark ominous warning from Denmark boss amid World Cup fear",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/kasper-schmeichels-celtic-struggles-spark-36783369",
-            "description": "Boss Brian Riemer has been keeping tabs on the goalkeeper's slump in form",
-            "pubDate": "Thu, 26 Feb 2026 09:56:50 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36754888.ece\/ALTERNATES\/s615\/1_Celtic-FC-v-VfB-Stuttgart-UEFA-Europa-League-202526-Knockout-Play-off-First-Leg.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Roberto Martinez tells Celtic his non negotiable for return to club management",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/roberto-martinez-tells-celtic-non-36782830",
-            "description": "The Portugal boss is facing a big call with the World Cup just around the corner",
-            "pubDate": "Thu, 26 Feb 2026 08:39:32 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/football-news\/article36782896.ece\/ALTERNATES\/s615\/0_Screenshot-2026-02-26-at-083319.png",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Celtic told to 'get rid' of former Sheffield United star after red card incident sparks anger",
-            "link": "https:\/\/www.glasgowworld.com\/sport\/football\/celtic\/celtic-told-get-rid-former-sheffield-united-star-red-card-anger-trusty-5611753",
-            "description": "<p>The controversial incident has stolen headlines after Sunday\u2019s defeat to Hibernian at Parkhead<\/p>",
-            "pubDate": "Thu, 26 Feb 2026 07:00:03 GMT",
-            "image": "https:\/\/www.glasgowworld.com\/jpim-static\/image\/2026\/02\/25\/15\/39\/GettyImages-2250554430.jpeg?width=1200&auto=webp&crop=3%3A2",
-            "mediaText": "Celtic star Auston Trusty has been criticised after his red card against Hibernian. -  (Getty Images)",
-            "source": "GlasgowWorld Celtic"
-        },
-        {
-            "title": "Martin O'Neill 'raging' with Celtic board as intel on unseen frustration made public",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/martin-oneill-raging-celtic-board-36782547",
-            "description": "Hoops' fan Alan Brazil has claimed to be in the know about O'Neill's anger behind the scenes",
-            "pubDate": "Thu, 26 Feb 2026 06:55:48 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36782568.ece\/ALTERNATES\/s615\/0_Celtic-Training-Celtic-Park-Wednesday-February-25th.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Tomas Cvancara gets honest on his Celtic form as striker names his ultimate Parkhead target",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/tomas-cvancara-gets-honest-celtic-36781758",
-            "description": "The striker has netted just once for the Hoops following his January arrival",
-            "pubDate": "Thu, 26 Feb 2026 06:00:00 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36781763.ece\/ALTERNATES\/s615\/0_Celtic-FC-v-VfB-Stuttgart-UEFA-Europa-League-202526-Knockout-Play-off-First-Leg.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Martin O'Neill emphatically tells Celtic there is 'definitely a gap' in Europe before Stuttgart last dance",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/martin-oneill-emphatically-tells-celtic-36781628",
-            "description": "The veteran boss takes the Hoops to Germany trailing the Bundesliga side 4-1 on aggregate",
-            "pubDate": "Thu, 26 Feb 2026 06:00:00 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36753949.ece\/ALTERNATES\/s615\/0_FBL-EUR-C3-CELTIC-STUTTGART.jpg",
             "mediaText": "",
             "source": "Daily Record - Celtic FC"
         }
