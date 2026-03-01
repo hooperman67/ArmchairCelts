@@ -1,6 +1,102 @@
 {
     "items": [
         {
+            "link": "https:\/\/www.67hailhail.com\/news\/neil-lennon-says-that-celtic-cannot-play-without-callum-mcgregor\/",
+            "title": "Neil Lennon names the one player that Celtic cannot play without",
+            "source": "67 Hail Hail",
+            "pubDate": "Sun, 01 Mar 2026 12:45:00 +0000",
+            "description": "Celtic are unable to play without Callum McGregor, who has &#8216;suffered&#8217; as a result of that, according to Neil Lennon. McGregor is",
+            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2025\/12\/GettyImages-2252976421-1024x748.jpg"
+        },
+        {
+            "link": "https:\/\/www.67hailhail.com\/match\/martin-oneill-explains-kasper-schmeichels-exclusion-from-celtics-matchday-squad-vs-rangers\/",
+            "title": "'Leave it at that': Martin O'Neill explains Kasper Schmeichel Celtic mystery vs Rangers",
+            "source": "67 Hail Hail",
+            "pubDate": "Sun, 01 Mar 2026 11:44:14 +0000",
+            "description": "Celtic&#8217;s starting line-up vs Rangers drew a couple of surprises after Martin O&#8217;Neill started Viljami Sinisalo and Junior Adamu a",
+            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2026\/02\/GettyImages-2257790490-1024x819.jpg"
+        },
+        {
+            "link": "https:\/\/www.celticway.co.uk\/news\/25897101.kasper-schmeichel-celtic-absence-rangers-clash-explained\/?ref=rss",
+            "title": "Kasper Schmeichel's Celtic absence for Rangers clash explained",
+            "source": "Celtic Way | News",
+            "pubDate": "Sun, 01 Mar 2026 11:22:00 +0000",
+            "description": "Kasper Schmeichel's Celtic absence for Rangers clash explained.",
+            "image": "https:\/\/www.celticway.co.uk\/resources\/images\/20599408\/?type=app&htype=0"
+        },
+        {
+            "link": "https:\/\/thecelticstar.com\/teams-up-rohl-names-team-for-glasgow-derby-clash\/",
+            "title": "Team\u2019s Up \u2013 R\u00f6hl names team for Glasgow Derby clash",
+            "source": "The Celtic Star",
+            "pubDate": "Sun, 01 Mar 2026 11:18:47 +0000",
+            "description": "Rangers manager Danny R\u00f6hl has named his team for this afternoon\u2019s Glasgow Derby against Celtic. The Scottish Champions arrive in Govan a",
+            "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2025\/11\/LC_SEMI_CELTIC_RANGERS_01409.jpeg"
+        },
+        {
+            "link": "https:\/\/celtsarehere.com\/celtic-fc-chris-sutton-rangers-ibrox\/",
+            "title": "Chris Sutton\u2019s Brutal Ibrox Warning",
+            "source": "Celts Are Here",
+            "pubDate": "Sun, 01 Mar 2026 11:13:57 +0000",
+            "description": "Chris Sutton believes Celtic face a tough afternoon at Ibrox and says the wider title picture makes the stakes even higher. Speaking ahead o",
+            "image": "images\/craic.webp"
+        },
+        {
+            "link": "https:\/\/thecelticstar.com\/forgotten-celt-who-was-quietly-released-appears-at-english-premier-league-club\/",
+            "title": "Forgotten Celt who was quietly released appears at English Premier League club",
+            "source": "The Celtic Star",
+            "pubDate": "Sun, 01 Mar 2026 11:05:12 +0000",
+            "description": "Former Celtic midfielder James McCarthy has made a surprise appearances modelling for Everton FC. The ex-Toffees star was pictured as part o",
+            "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2022\/01\/celtic-fc-v-real-betis-group-g-uefa-europa-league-30.jpeg"
+        },
+        {
+            "link": "https:\/\/thecelticstar.com\/the-rangers-v-celtic-confirmed-team-referee-details-ko-time-where-to-watch\/",
+            "title": "the Rangers v Celtic \u2013 Confirmed team, referee details, KO time & where to watch",
+            "source": "The Celtic Star",
+            "pubDate": "Sun, 01 Mar 2026 11:02:11 +0000",
+            "description": "Celtic are at Ibrox today for the first of our two Sunday double-headers again the club Charles Green founded back in the summer of 2012&#82",
+            "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2025\/05\/SPFL_RANGERS_CELTIC_2103.jpeg"
+        },
+        {
+            "link": "https:\/\/www.celticquicknews.co.uk\/rangers-v-celtic-live-updates-26\/",
+            "title": "\u2018Rangers\u2019 v Celtic, Live updates",
+            "source": "Celtic Quick News",
+            "pubDate": "Sun, 01 Mar 2026 11:00:35 +0000",
+            "description": "Live updates will appear below after 12:00.",
+            "image": "images\/craic.webp"
+        },
+        {
+            "link": "https:\/\/videocelts.com\/2026\/03\/blogs\/latest-news\/team-news-sinisalo-replaces-schmeichel-with-five-celtic-changes-for-ibrox\/",
+            "title": "Team News: Sinisalo replaces Schmeichel with five Celtic changes for Ibrox",
+            "source": "Latest News Archives | videocelts.com",
+            "pubDate": "Sun, 01 Mar 2026 11:00:08 +0000",
+            "description": "The selection of Sinisalo is the main talking point but the Finnish internationalist did play at Ibrox last May when Celtic drew 1-1.\nThe po",
+            "image": "images\/craic.webp"
+        },
+        {
+            "link": "https:\/\/www.celticquicknews.co.uk\/confirmed-sinisalo-ox-start\/",
+            "title": "CONFIRMED: SINISALO, OX START",
+            "source": "Celtic Quick News",
+            "pubDate": "Sun, 01 Mar 2026 10:51:20 +0000",
+            "description": "MARTIN O&#8217;NEILL has given the nod of approval for Viljami Sinisalo to start against Rangers at Ibrox this afternoon. The Finnish shotst",
+            "image": "images\/craic.webp"
+        },
+        {
+            "link": "https:\/\/thecelticstar.com\/teams-up-major-call-for-celtic-at-ibrox-as-sinisalo-starts\/",
+            "title": "Team\u2019s Up \u2013 Major call for Celtic at Ibrox as Sinisalo starts",
+            "source": "The Celtic Star",
+            "pubDate": "Sun, 01 Mar 2026 10:49:48 +0000",
+            "description": "Martin O\u2019Neill has named his Celtic team for this afternoon\u2019s Glasgow Derby against Rangers. The Irishman, who turns 74 today, has picke",
+            "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2026\/02\/vfb-stuttgart-v-celtic-fc-uefa-europa-league-2025-26-knockout-play-off-second-leg-19.jpeg"
+        },
+        {
+            "link": "https:\/\/celtsarehere.com\/celtic-fc-starting-xi-rangers-sinisalo-adamu\/",
+            "title": "Celtic Starting XI vs Rangers: Sinisalo and Adamu Start",
+            "source": "Celts Are Here",
+            "pubDate": "Sun, 01 Mar 2026 10:47:31 +0000",
+            "description": "Celtic are back in Premiership action this afternoon with the short trip across the city to face Rangers at Ibrox, and Martin O\u2019Neill has ",
+            "image": "images\/craic.webp"
+        },
+        {
             "link": "https:\/\/www.67hailhail.com\/news\/ross-mccormack-debunks-brilliant-celtic-rumour-he-heard-when-at-rangers\/",
             "title": "'I know there was a rumour': Ross McCormack addresses brilliant Celtic claim when at Rangers",
             "source": "67 Hail Hail",
@@ -49,7 +145,7 @@
             "image": "images\/craic.webp"
         },
         {
-            "link": "https:\/\/www.celticquicknews.co.uk\/alexs-angle-pinky-to-a-fist-fight-in-the-war-of-wordsalexs-angle-pinky-to-a-fist-fightalexs-angle\/",
+            "link": "https:\/\/www.celticquicknews.co.uk\/alexs-angle-pinky-to-a-fist-fight-in-the-war-of-words\/",
             "title": "ALEX\u2019S ANGLE: \u2018PINKY TO A FIST FIGHT\u2019 IN THE WAR OF WORDS",
             "source": "Celtic Quick News",
             "pubDate": "Sun, 01 Mar 2026 09:39:03 +0000",
@@ -71,102 +167,6 @@
             "pubDate": "Sun, 01 Mar 2026 09:09:32 +0000",
             "description": "Callum McGregor has issued a rallying cry for the Celtic players and supporters for the business end of the season that starts today at Ibro",
             "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2026\/01\/heart-of-midlothian-v-celtic-william-hill-premiership-27.jpeg"
-        },
-        {
-            "link": "https:\/\/www.67hailhail.com\/news\/forget-not-another-penny-celtic-fans-will-love-a-sneaky-peek-at-evertons-new-superb-retro-top\/",
-            "title": "Forget Not Another Penny, Celtic fans will love a sneaky peek at Everton\u2019s new superb retro top",
-            "source": "67 Hail Hail",
-            "pubDate": "Sun, 01 Mar 2026 09:02:38 +0000",
-            "description": "As Celtic fans continue to enforce the Not Another Penny campaign, Everton may have pulled a masterstroke by releasing their new retro kit f",
-            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2025\/05\/GettyImages-2208008657-1024x683.jpg"
-        },
-        {
-            "link": "https:\/\/celticfanzine.com\/bring-on-the-rangers-2\/",
-            "title": "Bring on the rangers",
-            "source": "News Archives - Celtic Fanzine",
-            "pubDate": "Sun, 01 Mar 2026 08:48:23 +0000",
-            "description": "On Thursday in Germany we witnessed the passion, noise and colour Celtic fans bring to European Football. The atmosphere was incredible insi",
-            "image": "https:\/\/celticfanzine.com\/wp-content\/uploads\/Pitch-celtic-advert_V3.gif"
-        },
-        {
-            "link": "https:\/\/www.67hailhail.com\/news\/man-united-hero-wayne-rooney-explains-how-henrik-larsson-made-him-a-celtic-fan\/",
-            "title": "'Growing up': Wayne Rooney explains why he's always supported Celtic and not Rangers",
-            "source": "67 Hail Hail",
-            "pubDate": "Sun, 01 Mar 2026 08:31:47 +0000",
-            "description": "Man United legend Wayne Rooney explains how Henrik Larsson made him support Celtic ever since he was a child. Rooney played for Everton and ",
-            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2022\/05\/GettyImages-1240376470-1024x644.jpg"
-        },
-        {
-            "link": "https:\/\/thecelticstar.com\/the-unbeaten-story-of-celtic-at-home-at-ibrox\/",
-            "title": "The unbeaten story of Celtic at home at Ibrox",
-            "source": "The Celtic Star",
-            "pubDate": "Sun, 01 Mar 2026 08:24:27 +0000",
-            "description": "Today the Bhoys head to Ibrox for a crucial Scottish Premiership match and then return next Sunday for an equally important Scottish Cup fix",
-            "image": "https:\/\/icdn.thecelticstar.com\/wp-content\/uploads\/2026\/02\/imago1004486084.jpg"
-        },
-        {
-            "link": "https:\/\/bornceltic.com\/2026\/03\/01\/celtic-captain-callum-mcgregors-glasgow-derby-dismissal-has-annoyed-rangers-fans\/",
-            "title": "Callum McGregor's 'big game' dismissal has Rangers fans absolutely rattled",
-            "source": "Born Celtic",
-            "pubDate": "Sun, 01 Mar 2026 08:04:52 +0000",
-            "description": "Celtic captain Callum McGregor has broken the Rangers support after his big game comments sent Ibrox fans into a state [&#8230;]\nThe post Ce",
-            "image": "images\/craic.webp"
-        },
-        {
-            "link": "https:\/\/www.celticquicknews.co.uk\/birthday-bhoy-martin-74-today-and-the-last-ibrox-hurrah\/",
-            "title": "BIRTHDAY BHOY MARTIN \u2013 74 TODAY \u2013 AND THE LAST IBROX HURRAH",
-            "source": "Celtic Quick News",
-            "pubDate": "Sun, 01 Mar 2026 08:02:50 +0000",
-            "description": "MARTIN O&#8217;NEILL\u00a0will celebrate his 74th birthday in the unlikely setting of a hostile Ibrox this afternoon. For a man recognised as a ",
-            "image": "images\/craic.webp"
-        },
-        {
-            "link": "https:\/\/bornceltic.com\/2026\/03\/01\/rangers-bottle-called-out-on-sky-sports-ahead-of-celtic-fixture\/",
-            "title": "'Rangers give it all the chat': Ibrox club's 'bottle' called out on Sky Sports ahead of Celtic fixture",
-            "source": "Born Celtic",
-            "pubDate": "Sun, 01 Mar 2026 07:35:51 +0000",
-            "description": "The stakes for today&#8217;s Glasgow Derby between Celtic and Rangers have reached a fever pitch, with the psychological warfare starting [&",
-            "image": "images\/craic.webp"
-        },
-        {
-            "link": "https:\/\/bornceltic.com\/2026\/03\/01\/the-big-one-how-to-watch-rangers-vs-celtic-live-team-news-referee-var\/",
-            "title": "The Big One: How to watch Rangers vs Celtic live, team news, referee & VAR",
-            "source": "Born Celtic",
-            "pubDate": "Sun, 01 Mar 2026 07:20:31 +0000",
-            "description": "Celtic fans will be eagerly awaiting the Rangers game today as the Glasgow Derby becomes one of the most important [&#8230;]\nThe post The Bi",
-            "image": "images\/craic.webp"
-        },
-        {
-            "link": "https:\/\/www.67hailhail.com\/news\/chris-sutton-tells-martin-oneill-to-start-daizen-maeda-for-celtics-clash-at-rangers\/",
-            "title": "Chris Sutton makes it clear who should start between Celtic duo Maeda and Tounekti at Ibrox",
-            "source": "67 Hail Hail",
-            "pubDate": "Sun, 01 Mar 2026 06:30:00 +0000",
-            "description": "Daizen Maeda hasn&#8217;t been himself this season, and his performances for Celtic have fallen off a cliff. But that hasn&#8217;t stopped C",
-            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2025\/12\/GettyImages-2250175696-1024x683.jpg"
-        },
-        {
-            "link": "https:\/\/www.67hailhail.com\/match\/benjamin-arthur-and-luke-mccowan-should-start-for-celtic-against-rangers\/",
-            "title": "Opinion: The predicted Celtic XI to face Rangers in Glasgow derby clash",
-            "source": "67 Hail Hail",
-            "pubDate": "Sun, 01 Mar 2026 06:00:00 +0000",
-            "description": "Benjamin Arthur and Luke McCowan should both play for Celtic against Rangers at Ibrox this weekend. This is the biggest Glasgow derby of the",
-            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2026\/02\/luke-mccowan-goal-1772271616387-1024x576.jpg"
-        },
-        {
-            "link": "https:\/\/www.celticquicknews.co.uk\/rangers-v-celtic-5-minute-quiz-7\/",
-            "title": "RANGERS v CELTIC: 5-MINUTE QUIZ",
-            "source": "Celtic Quick News",
-            "pubDate": "Sun, 01 Mar 2026 05:30:31 +0000",
-            "description": "MARTIN O&#8217;NEILL takes his Celtic players to Ibrox this afternoon for the third Glasgow derby in the Premiership this season. The first ",
-            "image": "images\/craic.webp"
-        },
-        {
-            "link": "https:\/\/www.67hailhail.com\/news\/james-mcfadden-loves-the-fact-that-celtic-fans-will-have-the-whole-broomloan-stand-at-ibrox\/",
-            "title": "James McFadden loves the fact that Celtic fans will have the whole Broomloan Stand at Ibrox",
-            "source": "67 Hail Hail",
-            "pubDate": "Sat, 28 Feb 2026 21:30:00 +0000",
-            "description": "Celtic will play the first of their two clashes against Rangers on Sunday. There will be massive support for the Hoops for the Premiership s",
-            "image": "https:\/\/cdn1.67hailhail.com\/uploads\/18\/2026\/02\/GettyImages-852262180-1024x686.jpg"
         }
     ]
 }
