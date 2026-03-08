@@ -1,20 +1,20 @@
 {
     "items": [
         {
-            "title": "Celtic's treatment of Martin O'Neill is scandalous and inventory of inadequates exposes one thing - Hugh Keevins",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/celtic-treatment-martin-oneill-scandalous-36832707",
-            "description": "Our man Hugh Keevins doesn't miss with his latest hard-hitting column ahead of today's Old Firm Scottish Cup blockbuster",
-            "pubDate": "Sun, 8 Mar 2026 06:00:00 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36832727.ece\/ALTERNATES\/s615\/0_Celtic-v-Dundee-William-Hill-Premiership.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
-        },
-        {
             "title": "Celtic ace Sebastian Tounekti hungry for Ibrox victory as winger says Ramadan fasting won't sap his energy",
             "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/celtic-ace-sebastian-tounekti-hungry-36831001",
             "description": "Tunisia international insists he'll be raring to go come kick off time in round two of the Old Firm double header at Ibrox.",
             "pubDate": "Sun, 8 Mar 2026 06:00:00 +0000",
             "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/article36799480.ece\/ALTERNATES\/s615\/0_JS398335201.jpg",
+            "mediaText": "",
+            "source": "Daily Record - Celtic FC"
+        },
+        {
+            "title": "Celtic's treatment of Martin O'Neill is scandalous and inventory of inadequates exposes one thing - Hugh Keevins",
+            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/celtic-treatment-martin-oneill-scandalous-36832707",
+            "description": "Our man Hugh Keevins doesn't miss with his latest hard-hitting column ahead of today's Old Firm Scottish Cup blockbuster",
+            "pubDate": "Sun, 8 Mar 2026 06:00:00 +0000",
+            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36832727.ece\/ALTERNATES\/s615\/0_Celtic-v-Dundee-William-Hill-Premiership.jpg",
             "mediaText": "",
             "source": "Daily Record - Celtic FC"
         },
@@ -26,15 +26,6 @@
             "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36800046.ece\/ALTERNATES\/s615\/0_JS398342132.jpg",
             "mediaText": "",
             "source": "Daily Record - Celtic FC"
-        },
-        {
-            "title": "Scottish Cup holders Aberdeen embarrassed by Dunfermline as Neil Lennon puts feat up there with Celtic",
-            "link": "https:\/\/www.scotsman.com\/sport\/football\/scottish-premiership\/latest-premiership-news\/scottish-cup-holders-aberdeen-embarrassed-by-dunfermline-as-neil-lennon-puts-feat-up-there-with-celtic-5623921",
-            "description": "<p>Pars blast into semis as gloom deepens for Dons<\/p>",
-            "pubDate": "Sat, 07 Mar 2026 21:49:56 GMT",
-            "image": "https:\/\/www.scotsman.com\/jpim-static\/image\/2026\/03\/07\/21\/21\/21625748.jpeg?width=1200&auto=webp&crop=3%3A2",
-            "mediaText": "Dunfermline&#039;s Olly Thomas (C) celebrates with Freddie Turley after scoring to make it 3-0 against Aberdeen. -  (SNS Group)",
-            "source": "The Scotsman Celtic"
         },
         {
             "title": "Celtic forced me out for Sunderland transfer against my wishes - I couldn't even look at the manager who sanctioned it",
@@ -188,6 +179,15 @@
             "image": "https:\/\/ichef.bbci.co.uk\/ace\/standard\/240\/cpsprodpb\/6c83\/live\/d6a4cad0-1978-11f1-9156-4356592fc9c8.jpg",
             "mediaText": "",
             "source": "BBC Sport"
+        },
+        {
+            "title": "Martin O'Neill gives double Celtic injury update ahead of Old Firm showdown",
+            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25915179.martin-oneill-gives-pre-old-firm-double-injury-update\/?ref=rss",
+            "description": "Schmeichel and Tierney could play against Rangers in the weekend's Scottish Cup quarter-final.",
+            "pubDate": "Fri, 06 Mar 2026 14:50:00 +0000",
+            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20539366\/",
+            "mediaText": "",
+            "source": "Glasgow Times | Celtic"
         }
     ]
 }
