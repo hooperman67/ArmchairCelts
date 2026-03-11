@@ -1,6 +1,24 @@
 {
     "items": [
         {
+            "title": "Three men charged after Celtic fan attacked while walking on supporters' bus",
+            "link": "https:\/\/www.glasgowlive.co.uk\/news\/glasgow-news\/three-men-charged-after-celtic-33568431",
+            "description": "There was chaos at Ibrox on Sunday, when fans from both teams invaded the pitch.",
+            "pubDate": "Wed, 11 Mar 2026 07:20:03 +0000",
+            "image": "https:\/\/i2-prod.glasgowlive.co.uk\/news\/glasgow-news\/article33568442.ece\/ALTERNATES\/s615\/0_attackPNG.png",
+            "mediaText": "",
+            "source": "GlasgowLive - Celtic FC"
+        },
+        {
+            "title": "Martin O'Neill stuck with Celtic tombola as Chris Sutton insists title win would be 'absolutely remarkable'",
+            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/martin-oneill-stuck-celtic-tombola-36845752",
+            "description": "Sutty was on top form on the Record Sport Celtic Podcast as he picked over the bones of Sunday's dramatic Old Firm showdown",
+            "pubDate": "Wed, 11 Mar 2026 06:00:00 +0000",
+            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36846226.ece\/ALTERNATES\/s615\/0_Rangers-v-CelticScottish-Gas-Mens-Scottish-Cup-Ibrox-Stadium-Glasgow-UK-08-Mar-2026.jpg",
+            "mediaText": "",
+            "source": "Daily Record - Celtic FC"
+        },
+        {
             "title": "I won 16 trophies at Celtic, now I'm a budding YouTube star back in my homeland",
             "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25925623.celtic-hero-mikael-lustig-post-football\/?ref=rss",
             "description": "Lustig is fondly remembered in the green side of Glasgow for both his exploits on and off the pitch.",
@@ -17,6 +35,15 @@
             "image": "https:\/\/i2-prod.dailyrecord.co.uk\/incoming\/article36846272.ece\/ALTERNATES\/s615\/0_Screenshot-2026-03-10-175806.png",
             "mediaText": "",
             "source": "Daily Record - Celtic FC"
+        },
+        {
+            "title": "Celtic 'weighing up' permanent move for loanee star as key factor deal will depend on emerges",
+            "link": "https:\/\/www.glasgowworld.com\/sport\/football\/celtic\/celtic-weighing-up-permanent-move-loan-ace-key-factor-emerges-5627197",
+            "description": "<p>Celtic have been linked with a permanent transfer move for a loan star<\/p>",
+            "pubDate": "Tue, 10 Mar 2026 20:00:37 GMT",
+            "image": "https:\/\/www.glasgowworld.com\/jpim-static\/image\/2026\/03\/10\/14\/26\/GettyImages-2261962951.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "mediaText": "Celtic have been linked with a permanent move for Marcelo Saracchi. -  (AFP via Getty Images)",
+            "source": "GlasgowWorld Celtic"
         },
         {
             "title": "Callum McGregor sees Celtic injury intel leaked by Parkhead insider as true return timeline floated",
@@ -118,7 +145,7 @@
             "source": "Latest Celtic F.C. News | News, updates, and analysis related to Celtic Football Club. | STV News"
         },
         {
-            "title": "Martin O'Neill's madcap Tobey Carvery tradition revealed before Celtic hero's Sunderland 'dictatorship'",
+            "title": "Martin O'Neill's madcap Toby Carvery tradition revealed before Celtic hero's Sunderland 'dictatorship'",
             "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/martin-oneills-madcap-tobey-carvery-36844504",
             "description": "One former Black Cats player has lifted the lid on the contrasting approach from two managers during their respective tenures in the North East of England",
             "pubDate": "Tue, 10 Mar 2026 15:25:44 +0000",
@@ -161,33 +188,6 @@
             "image": "https:\/\/www.scotsman.com\/jpim-static\/image\/2026\/03\/10\/11\/25\/21487931.jpg?width=1200&auto=webp&crop=3%3A2",
             "mediaText": "Celtic have several injury concerns ahead of their game with Motherwell in the Scottish Premiership this weekend. Cr: SNS Group. -  (SNS Group)",
             "source": "The Scotsman Celtic"
-        },
-        {
-            "title": "SFA name officials for Celtic vs Motherwell Premiership clash",
-            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25923285.sfa-name-officials-celtic-vs-motherwell-spfl-clash\/?ref=rss",
-            "description": "Celtic's important match against Motherwell will be officiated by John Beaton.",
-            "pubDate": "Tue, 10 Mar 2026 11:34:40 +0000",
-            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20640572\/",
-            "mediaText": "",
-            "source": "Glasgow Times | Celtic"
-        },
-        {
-            "title": "Celtic defender set for shock international return after nine months out of picture",
-            "link": "https:\/\/www.glasgowtimes.co.uk\/sport\/25922513.celtic-julian-araujo-tipped-mexico-recall-chats\/?ref=rss",
-            "description": "Celtic defender set for shock international return after nine months",
-            "pubDate": "Tue, 10 Mar 2026 09:37:43 +0000",
-            "image": "https:\/\/www.glasgowtimes.co.uk\/resources\/images\/20639621\/",
-            "mediaText": "",
-            "source": "Glasgow Times | Celtic"
-        },
-        {
-            "title": "Callum McGregor injury fear 'revealed' as annoyed Celtic hero hits out over treatment of star man",
-            "link": "https:\/\/www.dailyrecord.co.uk\/sport\/football\/football-news\/callum-mcgregor-injury-fear-celtic-36842111",
-            "description": "Charlie Mulgrew fears the skipper's absence from the team-sheet at Ibrox means there will be no quick comeback",
-            "pubDate": "Tue, 10 Mar 2026 09:25:45 +0000",
-            "image": "https:\/\/i2-prod.dailyrecord.co.uk\/sport\/football\/football-news\/article36842232.ece\/ALTERNATES\/s615\/0_JS399204096.jpg",
-            "mediaText": "",
-            "source": "Daily Record - Celtic FC"
         }
     ]
 }
