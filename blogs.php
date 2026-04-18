@@ -1,6 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -155,14 +153,6 @@ foreach (array_slice($feeda, 0, 18) as $post) {
 
 // build array of latest 21 posts
 $latestPosts = array_slice($feeda, 0, 21);
-
-// output JSON with all posts
-$jsonOutput = json_encode(['items' => $latestPosts], JSON_PRETTY_PRINT | JSON_INVALID_UTF8_SUBSTITUTE);
-if ($jsonOutput === false) {
-    error_log("JSON encode error: " . json_last_error_msg());
-} elseif (file_put_contents( 'data/blogs.json', $jsonOutput) === false) {
-    error_log("Failed to write blogs.json – check permissions");
-}
 
 // --- Load template & write static HTML ---
 $template = file_get_contents('blogsbase.html');
