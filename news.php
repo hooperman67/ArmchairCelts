@@ -1,7 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
-
 // ---------------- CONFIG ----------------
 $news_urls = [
     'https://www.dailyrecord.co.uk/all-about/celtic-fc/?service=rss',
@@ -271,13 +268,6 @@ $schema_json = '<script type="application/ld+json">'
              . json_encode($schemaWrapper, JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT) 
              . '</script>';
 
-// Save JSON feed
-$jsonOutput = json_encode(['items' => $allPosts], JSON_PRETTY_PRINT);
-if (file_put_contents('data/news.json', $jsonOutput) === false) {
-    error_log("ERROR: Could not write data/news.json");
-    fwrite(STDERR, "ERROR: Could not write data/news.json\n");
-    exit(1);
-}
 
 // Save HTML
 $template = @file_get_contents('newsbase.html');
