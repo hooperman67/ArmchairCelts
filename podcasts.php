@@ -1,7 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
-
 function file_get_contents_curl($url) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -118,9 +115,7 @@ foreach ($latest_podcasts as $podcast) {
     $rss3 .= '</div></div></div>';
 }
 
-$jsonOutput = json_encode(['items' => $podcastitems], JSON_PRETTY_PRINT);
-file_put_contents('/var/www/armchaircelts/podcasts.json', $jsonOutput);
-$template = file_get_contents('/var/www/armchaircelts/podcastsbase.html');
+$template = file_get_contents('podcastsbase.html');
 $html = str_replace('<!-- posts here -->', $rss3, $template);
 if (!empty($feedErrors)) {
     $html .= "<div class='feed-errors' style='color:red; padding:1em; border:1px solid red; margin-top:20px;'>
@@ -131,5 +126,5 @@ if (!empty($feedErrors)) {
     $html .= "</ul></div>";
 }
 
-file_put_contents('/var/www/armchaircelts/podcasts.html', $html);
+file_put_contents('podcasts.html', $html);
 ?>
