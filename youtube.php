@@ -1,7 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
-
 // --------------------------------------------------
 // Helper: Build HTML card
 // --------------------------------------------------
@@ -117,25 +114,13 @@ foreach ($latest_items as $item) {
 }
 $html_content .= "</div>";
 
-// --------------------------------------------------
-// Save JSON (featured + latest)
-// --------------------------------------------------
-$jsonOutput = json_encode(
-    [
-        'featured' => $featured_items,
-        'latest'   => $latest_items
-    ],
-    JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES
-);
-
-file_put_contents('/var/www/armchaircelts/youtubefeed.json', $jsonOutput);
 
 // --------------------------------------------------
 // Inject HTML into template
 // --------------------------------------------------
-$template = file_get_contents('/var/www/armchaircelts/youtubebase.html');
+$template = file_get_contents('youtubebase.html');
 $html = str_replace('<!-- posts here -->', $html_content, $template);
-file_put_contents('/var/www/armchaircelts/youtube.html', $html);
+file_put_contents('youtube.html', $html);
 
 echo "Feeds updated successfully.";
 
