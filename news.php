@@ -273,11 +273,27 @@ $schema_json = '<script type="application/ld+json">'
 
 // Save JSON feed
 $jsonOutput = json_encode(['items' => $allPosts], JSON_PRETTY_PRINT);
-file_put_contents('data/news.json', $jsonOutput);
+if (file_put_contents('data/news.json', $jsonOutput) === false) {
+    error_log("ERROR: Could not write data/news.json");
+    fwrite(STDERR, "ERROR: Could not write data/news.json\n");
+    exit(1);
+}
 
 // Save HTML
-$template = file_get_contents('newsbase.html');
+$template = @file_get_contents('newsbase.html');
+if ($template === false) {
+    error_log("ERROR: Could not read newsbase.html");
+    fwrite(STDERR, "ERROR: Could not read newsbase.html\n");
+    exit(1);
+}
+
 $html = str_replace('<!-- posts here -->', $postsHtml . $schema_json, $template);
-file_put_contents('index.html', $html);
+if (file_put_contents('index.html', $html) === false) {
+    error_log("ERROR: Could not write index.html");
+    fwrite(STDERR, "ERROR: Could not write index.html\n");
+    exit(1);
+}
+
+fwrite(STDERR, "SUCCESS: news.php completed successfully\n");
 
 
