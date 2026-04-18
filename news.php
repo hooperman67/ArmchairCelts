@@ -273,7 +273,7 @@ $schema_json = '<script type="application/ld+json">'
 
 // Save JSON feed
 $jsonOutput = json_encode(['items' => $allPosts], JSON_PRETTY_PRINT);
-file_put_contents('newsfeed.json', $jsonOutput);
+file_put_contents('data/news.json', $jsonOutput);
 
 // Save HTML
 $template = file_get_contents('newsbase.html');
