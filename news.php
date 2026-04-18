@@ -296,4 +296,3 @@ if (file_put_contents('index.html', $html) === false) {
 
 fwrite(STDERR, "SUCCESS: news.php completed successfully\n");
 
-
