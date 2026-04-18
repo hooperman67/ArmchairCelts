@@ -160,7 +160,7 @@ $latestPosts = array_slice($feeda, 0, 21);
 $jsonOutput = json_encode(['items' => $latestPosts], JSON_PRETTY_PRINT | JSON_INVALID_UTF8_SUBSTITUTE);
 if ($jsonOutput === false) {
     error_log("JSON encode error: " . json_last_error_msg());
-} elseif (file_put_contents( 'blogs.json', $jsonOutput) === false) {
+} elseif (file_put_contents( 'data/blogs.json', $jsonOutput) === false) {
     error_log("Failed to write blogs.json – check permissions");
 }
 
