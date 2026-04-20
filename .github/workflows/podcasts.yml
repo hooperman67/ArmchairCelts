@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  update-news:
+  update-podcasts:
     runs-on: ubuntu-latest
 
     steps:
