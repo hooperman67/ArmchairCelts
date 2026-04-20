@@ -6,7 +6,7 @@ on:
     paths:
       - 'news.php'
   schedule:
-    - cron: '20 7-23/2 * * *'
+    - cron: '15 6-23/2 * * *'
   workflow_dispatch:
 
 permissions:
