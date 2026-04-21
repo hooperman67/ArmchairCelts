@@ -53,7 +53,7 @@ function parse_youtube_feed($feedUrl, $limit = 5) {
             $thumb = (string) $mediaGroup->group->thumbnail[0]['url'];
         }
         if (!$thumb && $id) {
-            $thumb = "https://img.youtube.com/vi/$id/maxresdefault.jpg";
+            $thumb = "https://img.youtube.com/vi/$id/hqdefault.jpg";
         }
 
         $items[] = [
@@ -69,24 +69,11 @@ function parse_youtube_feed($feedUrl, $limit = 5) {
 }
 
 // --------------------------------------------------
-// Featured feed (latest 3 from Celtic official channel)
-// --------------------------------------------------
-$featured_items = parse_youtube_feed(
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCBN-bb-hE7jYlcp4exwXRsQ",
-    3
-);
-
-$html_content  = "<div class='row center'><h3>Featured <small>Official Celtic FC Site </small></h3></div><div class='grid-x grid-margin-x'>";
-foreach ($featured_items as $item) {
-    $html_content .= build_item_html($item);
-}
-$html_content .= "</div>";
-
-// --------------------------------------------------
 // Other podcasts (merge, sort, pick latest 9)
 // --------------------------------------------------
 $podcasts_rss = [
     "https://www.youtube.com/feeds/videos.xml?channel_id=UC40iYWGZDD1cC4zvYRCWjHw", // celticfanstv
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCBN-bb-hE7jYlcp4exwXRsQ", // official celtic
     "https://www.youtube.com/feeds/videos.xml?channel_id=UC7gYABMbhFKhXkaQLCkjqoQ", // footballmad
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCm39DIOf_A2tOKswod6PrUQ", // greenbrigade
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCpu4A47KwktyCPj_d9w-ALQ", // cmonthehoops
@@ -96,7 +83,7 @@ $podcasts_rss = [
 
 $all_items = [];
 foreach ($podcasts_rss as $rss_url) {
-    $all_items = array_merge($all_items, parse_youtube_feed($rss_url, 5));
+    $all_items = array_merge($all_items, parse_youtube_feed($rss_url, 6));
 }
 
 // Sort all by date (newest first)
@@ -104,16 +91,15 @@ usort($all_items, function($a, $b) {
     return strtotime($b['date']) <=> strtotime($a['date']);
 });
 
-// Keep only latest 9
-$latest_items = array_slice($all_items, 0, 9);
+// Keep only latest 12
+$latest_items = array_slice($all_items, 0, 12);
 
 // Build HTML for merged feeds
-$html_content .= "<div class='row center'><h3>Latest Videos</h3></div><div class='grid-x grid-margin-x'>";
+$html_content .= "<div class='grid-x grid-margin-x'>";
 foreach ($latest_items as $item) {
     $html_content .= build_item_html($item);
 }
 $html_content .= "</div>";
-
 
 // --------------------------------------------------
 // Inject HTML into template
@@ -123,4 +109,3 @@ $html = str_replace('<!-- posts here -->', $html_content, $template);
 file_put_contents('youtube.html', $html);
 
 echo "Feeds updated successfully.";
-
