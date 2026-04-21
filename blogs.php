@@ -10,7 +10,7 @@ $urls = [
     'https://thecelticbhoys.com/feed/',            
     'https://snnsports.co.uk/category/celtic/feed/',
     'https://bornceltic.com/feed/',
-    'https://thecelticexchange.com/feed/',
+    'https://thecelticexchange.com/rss.xml',
     'https://www.si.com/onsi/soccer/celtic/feed',            
     'https://thecelticstar.com/feed/',
     'https://www.67hailhail.com/feed/',
