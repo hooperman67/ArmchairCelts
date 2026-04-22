@@ -95,6 +95,7 @@ usort($all_items, function($a, $b) {
 $latest_items = array_slice($all_items, 0, 12);
 
 // Build HTML for merged feeds
+$html_content = '';
 $html_content .= "<div class='grid-x grid-margin-x'>";
 foreach ($latest_items as $item) {
     $html_content .= build_item_html($item);
