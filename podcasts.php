@@ -26,6 +26,7 @@ $urls = array(
     'https://feeds.megaphone.fm/COMG7800486710', //glasgowisgreen
     'https://feeds.acast.com/public/shows/the-huddle-breakdown',
     'https://feeds.acast.com/public/shows/5f208eec15e9d83c37daa234',
+    'https://rss.buzzsprout.com/2426566.rss',
     'https://feeds.acast.com/public/shows/62c33913723f5300143ed846',
     'https://www.spreaker.com/show/390964/episodes/feed', // etims
     'https://www.spreaker.com/show/1544444/episodes/feed',
