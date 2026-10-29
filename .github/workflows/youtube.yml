@@ -31,6 +31,4 @@ jobs:
           git commit -m "Auto-update youtube.html" || echo "No changes"
 
       - name: Push changes
-        run: |
-          git pull --rebase origin main
-          git push
+        run: git push
